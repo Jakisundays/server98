@@ -10,7 +10,7 @@ app.use(express.json());
 app.use(cors());
 
 mongoose.connect(
-  `mongodb+srv://jakiSundays:${process.env.MONGODB_PASSWORD}@cluster0.njkss3p.mongodb.net/?retryWrites=true&w=majority`,
+  `mongodb+srv://jakiSundays:${process.env.MONGODB_PASSWORD}@windows98.zbbwuad.mongodb.net/?retryWrites=true&w=majority`,
   () => console.log("Connected to DB")
 );
 

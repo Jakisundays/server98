@@ -1,5 +1,5 @@
 POST http://localhost:8000/notes
-Authorization: BEAR eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Imdhc3RvbkBnbWFpbC5jb20iLCJpZCI6IjYzZDE0Y2Y2MjM3OGE4Mjk3NjNlMzFmNCIsImlhdCI6MTY3NDY2MTExMH0.b9APmBe6HuNIi6YFCZRJDYvA-_rR_h2b9pm8HMW_SqM
+Authorization: BEAR eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImVtYWlsQGVtYWlsLmNvbSIsImlkIjoiNjNkYWZhM2QzZjZkYTI2YjIyY2Q4YTVjIiwiaWF0IjoxNjc1Mjk1MjkzfQ.C8USFttObA1r3iLv_N611xkUVS8F1E4HxeXX6Rf6DTg
 Content-Type: application/json
 
 {
@@ -9,7 +9,7 @@ Content-Type: application/json
 
 ###
 GET http://localhost:8000/notes/allnotes HTTP/1.1
-Authorization: BEAR eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Impha29AZ21haWwuY29tIiwiaWQiOiI2M2QxN2RlNjJjZDFiMDVhOWQyMmYwZDYiLCJpYXQiOjE2NzQ2NzM2Mzh9.TzdYFCyc3VkaRdkxBZe_y5D0nFHlrqmJ7cKR5ssCpHM
+Authorization: BEAR eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImVtYWlsQGVtYWlsLmNvbSIsImlkIjoiNjNkYWZhM2QzZjZkYTI2YjIyY2Q4YTVjIiwiaWF0IjoxNjc1Mjk1MjkzfQ.C8USFttObA1r3iLv_N611xkUVS8F1E4HxeXX6Rf6DTg
 
 
 ###
@@ -20,7 +20,7 @@ DELETE  http://localhost:8000/notes HTTP/1.1
 
 ###
 PATCH http://localhost:8000/notes/63d174822cd1b05a9d22f0a3
-Authorization: BEAR eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Imdhc3RvbkBnbWFpbC5jb20iLCJpZCI6IjYzZDE0Y2Y2MjM3OGE4Mjk3NjNlMzFmNCIsImlhdCI6MTY3NDY2MTExMH0.b9APmBe6HuNIi6YFCZRJDYvA-_rR_h2b9pm8HMW_SqM
+Authorization: BEAR eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImVtYWlsQGVtYWlsLmNvbSIsImlkIjoiNjNkYWZhM2QzZjZkYTI2YjIyY2Q4YTVjIiwiaWF0IjoxNjc1Mjk1MjkzfQ.C8USFttObA1r3iLv_N611xkUVS8F1E4HxeXX6Rf6DTg
 Content-Type: application/json
 
 {
@@ -30,4 +30,4 @@ Content-Type: application/json
 
 ###
 DELETE http://localhost:8000/notes/63d1884495539b51af6c065a
-Authorization: BEAR eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Impha29AZ21haWwuY29tIiwiaWQiOiI2M2QxN2RlNjJjZDFiMDVhOWQyMmYwZDYiLCJpYXQiOjE2NzQ2NzM2Mzh9.TzdYFCyc3VkaRdkxBZe_y5D0nFHlrqmJ7cKR5ssCpHM
+Authorization: BEAR eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImVtYWlsQGVtYWlsLmNvbSIsImlkIjoiNjNkYWZhM2QzZjZkYTI2YjIyY2Q4YTVjIiwiaWF0IjoxNjc1Mjk1MjkzfQ.C8USFttObA1r3iLv_N611xkUVS8F1E4HxeXX6Rf6DTg
