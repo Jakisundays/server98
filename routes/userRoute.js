@@ -13,14 +13,14 @@ router
       const allUsers = await User.find();
       res.status(200).json(allUsers);
     } catch (error) {
-      res.status(500).json({ message: "quepaso" });
+      res.status(500).json({ message: error.message });
     }
   })
   .delete(async (req, res) => {
     try {
       await User.deleteMany({});
     } catch (error) {
-      return res.status(500).json({ msg: "quepaso" });
+      return res.status(500).json({ msg: error.message });
     }
     res.status(202).json({ message: "Deleted all" });
   });
