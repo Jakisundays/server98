@@ -19,6 +19,10 @@ app.use("/user", userRoutes);
 const noteRoutes = require("./routes/noteRoute");
 app.use("/notes", noteRoutes);
 
+app.get('/', (req,res) => {
+  res.send('try')
+})
+
 app.listen(PORT, () =>
   console.log(`Server running on https://server-windows98.onrender.com/${PORT}`)
 );
