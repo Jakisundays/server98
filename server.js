@@ -30,5 +30,5 @@ app.get("/", (req, res) => {
 });
 
 app.listen(PORT, () =>
-  console.log(`Server running on https://server-windows98.onrender.com - ${process.env.MONGODB_PASSWORD}`)
+  console.log(`Server running on https://server-windows98.onrender.com - ${process.env.MONGODB_PASSWORD ? 'si funciona' : 'no funciona' } `)
 );
