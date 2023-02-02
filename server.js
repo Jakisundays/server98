@@ -20,5 +20,5 @@ const noteRoutes = require("./routes/noteRoute");
 app.use("/notes", noteRoutes);
 
 app.listen(PORT, () =>
-  console.log(`Server running on http://localhost:${PORT}/`)
+  console.log(`Server running on https://server-windows98.onrender.com/${PORT}`)
 );
